@@ -6,16 +6,11 @@ using Xamarin.Forms;
 
 namespace CrossMvvmFristApp.Core.Pages
 {
-    public partial class MainPage : MvxContentPage<MainViewModel>
+    public partial class DetailPage : MvxContentPage<DetailViewModel>
     {
-        public MainPage()
+        public DetailPage()
         {
             InitializeComponent();
-        }
-
-        protected override void OnViewModelSet()
-        {
-            
         }
     }
 }

@@ -13,9 +13,10 @@ namespace CrossMvvmFristApp.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
+            //ActionBar.
             base.OnCreate(bundle);
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+            //TabLayoutResource = Resource.Layout.Tabbar;
+            //ToolbarResource = Resource.Layout.Toolbar;
         }
     }
 }

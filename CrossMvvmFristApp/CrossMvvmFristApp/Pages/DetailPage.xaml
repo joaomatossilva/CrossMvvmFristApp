@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<d:MvxContentPage x:TypeArguments="viewModels:MainViewModel"
+<d:MvxContentPage x:TypeArguments="viewModels:DetailViewModel"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CrossMvvmFristApp.Core.Pages"
-    x:Class="CrossMvvmFristApp.Core.Pages.MainPage"
+    x:Class="CrossMvvmFristApp.Core.Pages.DetailPage"
     xmlns:d="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     xmlns:viewModels="clr-namespace:CrossMvvmFristApp.Core.ViewModels;assembly=CrossMvvmFristApp.Core">
 	<ContentPage.Content>
-        <StackLayout BackgroundColor="Brown">
-        <Button Text="Navigate" Command="{Binding NavigateCommand}" />
+        <StackLayout>
+        <Label Text="{Binding Id}" />
         </StackLayout>
 	</ContentPage.Content>
 </d:MvxContentPage>

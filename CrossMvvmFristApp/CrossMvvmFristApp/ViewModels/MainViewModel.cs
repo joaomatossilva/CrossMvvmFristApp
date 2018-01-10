@@ -1,15 +1,22 @@
 using System.Threading.Tasks;
+using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
 
 namespace CrossMvvmFristApp.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
+        private readonly IMvxNavigationService _navigationService;
         private string _text;
-        private IMvxCommand _showTextCommand;
+        private IMvxAsyncCommand _navigateCommand;
 
-        public IMvxCommand ShowTextCommand =>
-            _showTextCommand = _showTextCommand ?? new MvxCommand(DoShowTextCommand);
+        public MainViewModel(IMvxNavigationService navigationService)
+        {
+            _navigationService = navigationService;
+        }
+
+        public IMvxCommand NavigateCommand =>
+            _navigateCommand = _navigateCommand ?? new MvxAsyncCommand(DoNavigateCommand);
 
         public string Text
         {
@@ -22,9 +29,14 @@ namespace CrossMvvmFristApp.Core.ViewModels
             return base.Initialize();
         }
 
-        private void DoShowTextCommand()
+        public override void ViewCreated()
         {
-            Text = "Hello MvvmCross!";
+            base.ViewCreated();
+        }
+
+        private async Task DoNavigateCommand()
+        {
+            await _navigationService.Navigate<DetailViewModel, int>(2);
         }
     }
 }
