@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossMvvmFristApp.Android", "CrossMvvmFristApp\CrossMvvmFristApp.Android\CrossMvvmFristApp.Android.csproj", "{69DCABAF-6A8C-4CE9-842D-651CF1BABA68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossMvvmFristApp", "CrossMvvmFristApp\CrossMvvmFristApp\CrossMvvmFristApp.csproj", "{BC837D24-0A59-4AB1-91E3-1EA2EEF03FF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossMvvmFristApp.Core", "CrossMvvmFristApp\CrossMvvmFristApp\CrossMvvmFristApp.Core.csproj", "{BC837D24-0A59-4AB1-91E3-1EA2EEF03FF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossMvvmFristApp.iOS", "CrossMvvmFristApp\CrossMvvmFristApp.iOS\CrossMvvmFristApp.iOS.csproj", "{49E7A7D8-9FB3-4100-B1B7-FD65B48C0680}"
 EndProject

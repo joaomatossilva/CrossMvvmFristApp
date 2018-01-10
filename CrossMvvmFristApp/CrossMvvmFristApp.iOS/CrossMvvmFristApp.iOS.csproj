@@ -134,9 +134,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CrossMvvmFristApp\CrossMvvmFristApp.csproj">
-      <Project>{1ee9c61e-55f7-48ed-92eb-1e6209ae0793}</Project>
-      <Name>CrossMvvmFristApp</Name>
+    <ProjectReference Include="..\CrossMvvmFristApp\CrossMvvmFristApp.Core.csproj">
+      <Project>{BC837D24-0A59-4AB1-91E3-1EA2EEF03FF1}</Project>
+      <Name>CrossMvvmFristApp.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
