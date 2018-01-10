@@ -3,7 +3,7 @@ using MvvmCross.Forms.Platform;
 using MvvmCross.Platform;
 using Xamarin.Forms;
 
-namespace CrossMvvmFristApp.Core.Core
+namespace CrossMvvmFristApp.Core
 {
     public partial class App : MvxFormsApplication
     {

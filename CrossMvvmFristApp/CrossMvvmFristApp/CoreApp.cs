@@ -1,7 +1,7 @@
 using MvvmCross.Platform.IoC;
 using MvvmCross.Core.ViewModels;
 
-namespace CrossMvvmFristApp.Core.Core
+namespace CrossMvvmFristApp.Core
 {
     public class CoreApp : MvxApplication
     {

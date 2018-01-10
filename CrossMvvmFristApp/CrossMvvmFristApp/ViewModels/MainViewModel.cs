@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 
-namespace CrossMvvmFristApp.Core.Core.ViewModels
+namespace CrossMvvmFristApp.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {

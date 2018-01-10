@@ -17,12 +17,12 @@ namespace CrossMvvmFristApp.Droid
 
         protected override MvxFormsApplication CreateFormsApplication()
         {
-            return new Core.Core.App();
+            return new Core.App();
         }
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.Core.CoreApp();
+            return new Core.CoreApp();
         }
 
         protected override IMvxTrace CreateDebugTrace()
